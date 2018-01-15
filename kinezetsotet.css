@@ -1,0 +1,10 @@
+html{
+    background-color: grey;
+}
+h1{
+    color: white;
+}
+pre{
+    color: white;
+    font-size: 150%;
+}
