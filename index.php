@@ -1,7 +1,14 @@
 <!doctype html>
 <html>
 <head>
-    <link rel="stylesheet" type="text/css" href="kinezetvilagos.css"> 
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="kinezetvilagos.css"> 
+	
+	<script>
+	function swapStyleSheet(sheet){
+		document.getElementById('pagestyle').setAttribute('href', sheet);
+	}
+	</script>
+	
 </head>
 <body>
 
@@ -16,6 +23,10 @@ Et dimitte nobis debita nostra,
 sicut et nos dimittimus debitoribus nostris,
 et ne nos inducas in tentationem,
 sed libera nos a malo. Amen.  </pre>
+
+
+<button onclick="swapStyleSheet('kinezetvilagos.css')">Light style</button>
+<button onclick="swapStyleSheet('kinezetsotet.css')">Dark style</button>
 
 </body>
 </html>
